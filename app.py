@@ -5,8 +5,7 @@ app = Flask(__name__)
 from pymongo import MongoClient
 import random
 
-client = MongoClient(
-    '개인 디비사용하세요')
+client = MongoClient('mongodb+srv://test:alskdjfh@cluster0.geumrbf.mongodb.net/Cluster0?retryWrites=true&w=majority')
 db = client.dbsparta
 
 
